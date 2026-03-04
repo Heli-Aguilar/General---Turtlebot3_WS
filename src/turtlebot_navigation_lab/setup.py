@@ -24,6 +24,10 @@ setup(
     },
     entry_points={
         'console_scripts': [
+        	'state_estimator = homework.state_estimator:main',
+        	'controller = homework.controller:main',
+        	'forward_simulator = homework.forward_simulator:main',
+        	'planner = homework.planner:main',
         ],
     },
 )
